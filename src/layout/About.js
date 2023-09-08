@@ -45,18 +45,18 @@ const About = () => {
 
         <div className="flex  justify-center mt-10">
           <Card2
-            imgSource="https://dummyimage.com/720x400"
+            imgSource="https://pintu-academy.pintukripto.com/wp-content/uploads/2022/11/self-custody.png"
             title="Self-Custody"
             description="With us, the custody of your prized NFT stays securely in your hands as you allocate digital rights and mint. Peace of mind. "
           />
           <Card2
-            imgSource="https://dummyimage.com/720x400"
+            imgSource="https://previews.123rf.com/images/iaremenko/iaremenko1801/iaremenko180100025/94422685-digital-chain-blockchain-technology-concept-3d-illustration.jpg"
             title="On-chain"
             description="Trust in the power of blockchain technology and the transparency it brings to minting and sales process. 100% transperent
 "
           />
           <Card2
-            imgSource="https://dummyimage.com/720x400"
+            imgSource="https://www.insidehighered.com/sites/default/files/media/international-1751293_960_720.png"
             title="International"
             description="New York to remote corner of the world, we're here to make sure your minted goodies find their way across the globe."
           />

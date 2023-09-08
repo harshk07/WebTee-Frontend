@@ -7,7 +7,7 @@ let color = 'hover:text-blue-700 text-lg'
             <nav >
                 <div className="bg-neutral-100 flex justify-between items-center h-[70px] shadow-xl shadow-black-900 ">
                     <div className="ml-3">
-                        <h1 className='text-black text-2xl'><b>Blockright</b></h1>
+                        <h1 className='text-black text-2xl'><b>WebTee</b></h1>
                     </div>
                     <div className=" w-[35%]">
                         <ul className='text-black  flex justify-around '>

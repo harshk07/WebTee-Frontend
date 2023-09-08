@@ -5,7 +5,7 @@ export const Card1 = (props) => {
     <>
 
       {/* w-1/3 */}
-      <div className="p-4 md:w-1/1 ">
+      <div className="p-4 md:w-full ">
         <div className="h-full border-2 border-blue-700 bg-indigo-900 border-opacity-60 rounded-lg overflow-hidden">
           <img className="p-2 rounded-2xl h-[400px] w-full object-cover" src={props.imgSource} alt="blog" />
           <div className="p-6">
