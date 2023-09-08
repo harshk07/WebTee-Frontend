@@ -43,8 +43,8 @@ export const AgreementPage = () => {
                   <br />
                   <ol className="text-[13px]">
                     <li>
-                      1.1. "Blockright," "we," "us," or "our" refers to the
-                      Blockright website and its operators.
+                      1.1. "webtee," "we," "us," or "our" refers to the
+                      webtee website and its operators.
                     </li>
                     <li>
                       1.2. "Web3 Merchandise" refers to any digital artwork,
@@ -86,13 +86,13 @@ export const AgreementPage = () => {
                       3.1. As a customer, you retain full ownership and
                       copyright of the original content used in the creation of
                       Web3 merchandise. However, by minting your Web3
-                      merchandise on our platform, you grant Blockright a
+                      merchandise on our platform, you grant webtee a
                       non-exclusive, worldwide, royalty-free license to display,
                       reproduce, and distribute your Web3 merchandise for
                       promotional purposes.
                     </li>
                     <li>
-                      3.2. Blockright does not claim ownership of your Web3
+                      3.2. webtee does not claim ownership of your Web3
                       merchandise or its underlying intellectual property.
                     </li>
                   </ol>
@@ -141,7 +141,7 @@ export const AgreementPage = () => {
                   <br />
                   <ol className="text-[13px]">
                     <li>
-                      6.1. Blockright reserves the right to terminate or suspend
+                      6.1. webtee reserves the right to terminate or suspend
                       the accounts of customers who violate these terms and
                       conditions or engage in any inappropriate behavior.
                     </li>
@@ -153,7 +153,7 @@ export const AgreementPage = () => {
                   <br />
                   <ol className="text-[13px]">
                     <li>
-                      7.1. Blockright makes no warranties or guarantees
+                      7.1. webtee makes no warranties or guarantees
                       regarding the success, sales, or popularity of Web3
                       merchandise minted on our platform.
                     </li>
@@ -165,7 +165,7 @@ export const AgreementPage = () => {
                   <br />
                   <ol className="text-[13px]">
                     <li>
-                      8.1. Blockright reserves the right to update or modify
+                      8.1. webtee reserves the right to update or modify
                       these terms and conditions at any time. Continued use of
                       our services after such changes will constitute your
                       acceptance of the revised terms.

@@ -223,10 +223,10 @@ const ConnectWallet = () => {
           <div className="text-white items-start justify-start text-left  mt-[6rem]">
             Disclaimer : <br />
             <p className="text-sm">
-              Blockright seeks wallet verification with the sole purpose of
+              webtee seeks wallet verification with the sole purpose of
               gathering public address information from the user to retrieve
               details of non-fungible tokens (NFTs) held in a specific wallet
-              from the blockchain. It is important to note that Blockright does
+              from the blockchain. It is important to note that webtee does
               not request, acquire, or seek ownership, transfer, authentication,
               or custody of any NFTs. We advise users to exercise caution when
               connecting their wallet and signing any transaction. Be vigilant
@@ -237,7 +237,7 @@ const ConnectWallet = () => {
               <br /> If you do not agree with any part of this disclaimer,
               please refrain from using our website and services. If you have
               any questions or concerns regarding this legal disclaimer or our
-              services, please contact us at support@blockright.org
+              services, please contact us at support@webtee.org
             </p>
           </div>
         </div>
