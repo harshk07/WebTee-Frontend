@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../Images/blockright-logo.png"
+import logo from "../Images/webteelogo.png"
 import { useContext } from 'react';
 import WalletIDMainContext from "../context/walletID/WalletIDMainContext";
 

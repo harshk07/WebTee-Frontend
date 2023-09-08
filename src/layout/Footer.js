@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HashLink as Link2 } from "react-router-hash-link";
-import logo from "../Images/blockright-logo.png";
+import logo from "../Images/webteelogo.png";
 // import { HashLink as Link2 } from 'react-router-hash-link'
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -25,7 +25,7 @@ const Footer = () => {
                 to="/"
                 className="flex title-font font-medium  md:justify-start  text-gray-900"
               >
-                <img src={logo} alt="blockright img" />
+                <img className="h-9" src={logo} alt="blockright img" />
               </Link>
               <p style={{ color: "white" }}>
                 Mint your precious NFTs into authentic Web3 merch and open doors

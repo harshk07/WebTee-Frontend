@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // import Navbar2 from './Navbar2';
 // import { BrowserRouter } from 'react-router-dom';
 import { HashLink as Link2 } from 'react-router-hash-link';
-import logo from "../Images/blockright-logo.png";
+import logo from "../Images/webteelogo.png";
 import { ethers } from 'ethers';
 import WalletIDMainContext from "../context/walletID/WalletIDMainContext";
 import { useContext } from "react";
