@@ -22,7 +22,7 @@ const Upload = () => {
               <div className="bg-white w-[12rem] h-[7rem] rounded-xl">
                 <p className="text-blue-600 pl-10 font-normal pt-0">Earned</p>
                 <p className="text-blue-600 text-6xl font-semibold pl-10 pt-2">
-                  $0
+                  $117
                 </p>
               </div>
               <div className="bg-white w-[9rem] h-[7rem] rounded-xl">
@@ -42,7 +42,7 @@ const Upload = () => {
                     paddingLeft: "20px",
                   }}
                 >
-                  $0
+                  $16
                 </p>
               </div>
             </div>
