@@ -25,7 +25,7 @@ const Footer = () => {
                 to="/"
                 className="flex title-font font-medium  md:justify-start  text-gray-900"
               >
-                <img className="h-9" src={logo} alt="blockright img" />
+                <img className="h-9" src={logo} alt="webtee img" />
               </Link>
               <p style={{ color: "white" }}>
                 Mint your precious NFTs into authentic Web3 merch and open doors
