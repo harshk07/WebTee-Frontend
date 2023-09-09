@@ -1,14 +1,40 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../layout/Footer";
 import { Card1 } from "../components/Card1";
 import { Link } from "react-router-dom";
 import { Tabs } from "../components/Tabs";
 import { Carousel1 } from "../components/Carousel1";
+import axios from "axios";
 
 export const Market = () => {
   const [selectedSize, setSelectedSize] = useState("");
   const [selectedColor, setSelectedColor] = useState("");
+
+  const [nftData, setNftData] = useState([]);
+    useEffect(() => {
+        const options = {
+          method: "GET",
+          url: "http://127.0.0.1:8000/ecommerce/getAll/",
+          params: { adminId: "64f85ac8a4fb9e04cd207be5" },
+        };
+      
+        axios
+          .request(options)
+          .then(function (response) {
+            // console.log(response.data.response)
+            const filteredData = response.data.response.filter(
+                (item) => item.isPublished === true
+              );
+              console.log(filteredData)
+            setNftData(filteredData);
+          })
+          .catch(function (error) {
+            console.error(error);
+          });
+      }, []);
+
+  const youMayLike = nftData.slice(0,4);
 
   const handleSizeClick = (size) => {
     setSelectedSize(size);
@@ -162,7 +188,17 @@ export const Market = () => {
         </div>
 
         <div className="grid grid-cols-4 mt-4">
-          <Link to="/Market">
+          {youMayLike.map((item)=>(
+            <Link to="/Market">
+              <Card1
+                imgSource={item.images[0]}
+                title={item.merchTitle}
+                description={item.description}
+                
+              />
+            </Link>
+          ))}
+          {/* <Link to="/Market">
             <Card1
               imgSource="https://dummyimage.com/720x400"
               title="The Catalyzer"
@@ -183,16 +219,8 @@ export const Market = () => {
               imgSource="https://dummyimage.com/720x400"
               title="The Catalyzer"
               description="Phdoto booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
-              
             />
-          </Link>
-          <Link to="/Market">
-            <Card1
-              imgSource="https://dummyimage.com/720x400"
-              title="The Catalyzer"
-              description="Phdoto booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat."
-            />
-          </Link>
+          </Link> */}
         </div>
       </div>
       <Footer />
