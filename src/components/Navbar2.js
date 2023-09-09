@@ -28,7 +28,7 @@ const Navbar2 = (props) => {
         </Link>
         {/* ... Your other JSX ... */}
         <button className="font-semibold lg:inline-flex mr-20 items-center bg-blue-600 text-white border-2 border-blue-900 py-2 px-3 hover:bg-gray-200 rounded text-base mt-4 md:mt-0 hidden">
-          <p>{myValue}</p>
+          <p>{fetchedWalletAddress}</p>
         </button>
       </div>
     </div>
